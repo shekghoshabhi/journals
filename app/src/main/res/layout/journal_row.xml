@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="30dp">
+
+    <LinearLayout
+        android:background="@drawable/gradient_bg"
+        android:paddingTop="10dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:orientation="horizontal"
+        >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_margin="8dp">
+
+        <ImageView
+            android:id="@+id/list_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lakeshit"
+            android:cropToPadding="true"
+            android:adjustViewBounds="true"
+            />
+
+        <TextView
+            android:layout_marginTop="7dp"
+            android:id="@+id/list_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Titile"
+            android:padding="6dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="150dp"
+            />
+
+        <TextView
+            android:id="@+id/list_descrip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description..."
+            android:textSize="15sp"
+            android:padding="6dp"
+            android:textStyle="italic"
+            android:layout_marginTop="4dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="9dp"
+            android:paddingBottom="9dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_time"
+            android:text="time"
+            android:padding="7dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="290dp"
+            />
+
+        <View
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="#010E0D"
+        />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
