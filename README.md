@@ -1,4 +1,4 @@
 # journals
 #firebase #firestore 
-basic Android Application to add Journals/thoughts of day to day life
-and view them with realtime database (FireBasefirestore)
+Journals is an Android Application that lets you keep daily Journals/thoughts of day to day life
+and view with an added picyure . all the data is stores in realtime database (FireBasefirestore)
